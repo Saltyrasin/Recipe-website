@@ -1,0 +1,321 @@
+body {
+    font-family: 'Unbounded', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#gallery-top {
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    height: 0; 
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+
+header {
+    background-image: url('IMG_5456.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    z-index: 999;
+    margin-top: -620px; 
+    margin-left: 0;  
+    padding: 0;
+    position: relative;
+    font-size: 18px; 
+}
+
+#the-gal {
+    margin-top: -650px; 
+    margin-left: 60%;
+    text-decoration: none;
+    transition-duration: .2s;
+}
+
+#the-gal:hover {
+    color: #ffffff4d;
+}
+
+.name-header {
+    font-size: 2.5rem;  
+    color: #ffffff;
+    margin: 0;
+}
+
+#small-print {
+    font-size: 0.8rem; 
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: -90px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px; 
+    margin-left: 20px;
+}
+
+#text-Highlights {
+    text-align: center;
+    font-size: 30px; 
+}
+
+#portfolio {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.main_gallery {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    width: 200vh;
+    padding-top: 0;
+    padding: 0;
+    background-color: #ffffff;
+    margin-left: -20px; 
+    margin-top: -20px;
+}
+
+.main_gallery-img {
+    display: inline-block;
+    margin: 0 5px;
+    height: auto;
+    max-height: 600px; 
+    padding: 10px;
+    width: auto;
+    border-radius: 35px;
+}
+
+::-webkit-scrollbar { 
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #180b0b;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+section {
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.bottom-links {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+#the-gallery {
+    padding-top: 30px;
+    font-size: 50px;
+    margin-top: -20px;
+    transition-duration: .2s;
+
+}
+
+.contactme {
+    padding-left: 500px;
+}
+
+#the-gallery:hover {
+    color: #cccccc64;
+}
+
+#my-email {
+    transition-duration: .2s;
+}
+
+#my-email:hover {
+    color: #cccccc64;
+}
+
+#Instagram {
+    transition-duration: .2s;
+}
+
+#Instagram:hover {
+    color: #cccccc64;
+}
+
+#contact {
+    text-align: left;
+    background-color: white;
+    padding-left: 100px;
+}
+
+#contact-me {
+    font-size: 25px; 
+}
+/* link from gallery to home page */
+
+.gallery-title {
+    color: black;
+    text-align: center;
+    font-size: 40px; 
+    margin-top: 20px;
+}
+
+#back-to-home {
+    transition-duration: 0.4s;
+    color: #000000;
+    text-decoration: none;
+}
+
+#back-to-home:hover {
+    color: #180b0b9f;
+}
+
+.bottom-to-gallery {
+    background-image: url(IMG_1665.JPG);
+    color: #ffffff;
+    width: 100vh;
+    height: 500px;
+    border-radius: 20px;
+    padding: 40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.about-me-title {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.about-me-body {
+    margin: 0;
+    padding-bottom: 150px;
+    padding-top: 0px;
+}
+
+#check-gal {
+    padding: 0;
+}
+
+#to-gallery-bottom {
+    transition-duration: 0.4s;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+#to-gallery-bottom:hover {
+    color: #cccccc; 
+}
+
+.about-me-body {
+    font-size: 20px;
+    padding-top: 20px;
+    color: #000000;
+}
+
+#to-gallery {
+    text-decoration: none;
+}
+
+.gallery-sections {
+    font-size: 35px;
+    padding-left: 20px;
+}
+
+/* Media Queries for iPhones and mobile */
+@media only screen and (max-width: 600px) {
+    header {
+        height: 60vh;
+    }
+
+    .title {
+        margin-top: -300px;
+        font-size: 14px;
+        margin-left: -25px;
+    }
+
+    #the-gal {
+        margin-top: 0px;
+        margin-left: -150px;
+    }
+
+    .name-header {
+        font-size: 2rem;
+    }
+
+    #small-print {
+        font-size: 0.7rem;
+        margin-left: 0;
+    }
+
+    .main_gallery {
+        width: 100vh;
+    }
+
+    .main_gallery-img {
+        max-height: 300px;
+    }
+
+    .contactme {
+        padding-left: 0px;
+        margin-left: -40px;
+    }
+
+    .bottom-to-gallery {
+        width: 90vh;
+        height: 250px;
+    }
+
+    #to-gallery-bottom {
+        font-size: 20px;
+    }
+
+    .about-me-title {
+        font-size: 24px;
+    }
+
+    .about-me-body {
+        font-size: 18px;
+    }
+
+    .bottom-links {
+        margin-left: -40px;
+    }
+}
